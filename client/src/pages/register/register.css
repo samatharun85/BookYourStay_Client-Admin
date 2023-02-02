@@ -1,0 +1,14 @@
+.register-form{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    flex-direction: column;
+    background-color: aliceblue;
+    gap:7px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.Register-text{
+    font-size:medium;
+}

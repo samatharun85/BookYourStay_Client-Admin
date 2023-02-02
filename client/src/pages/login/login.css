@@ -1,0 +1,71 @@
+.login{
+    background: url(https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?cs=srgb&dl=pexels-thorsten-technoman-338504.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    background-color: aliceblue;
+    gap:20px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.login-title{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 15px;
+    color: #21224b;
+}
+.login-input{
+    height: 40px;
+    border-radius: 10px;
+    width: 250px;
+    padding-left: 10px;
+}
+.login-input:focus{
+   
+    outline-color: #21224b;
+}
+.login-field{
+    margin-top: 30px;
+    height: 30px;
+}
+.login-btn{
+    background-color: #21224b;
+  color: white;
+  font-weight: 500;
+  border: 2px solid;
+  font-size:medium;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+    width: 270px;
+}
+.login-btn:hover{
+    background-color:transparent ;
+    font-weight: 500;
+  color:#21224b;
+  border: 2px solid;
+  
+}
+.login-error{
+    color: red;
+    padding: 0px;
+    margin: 0px;
+    height: 7px;
+    font-size: small;
+}
+.login-footer{
+    font-weight: bolder;
+    margin-top: 20px;
+}

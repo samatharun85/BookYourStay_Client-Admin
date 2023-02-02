@@ -1,0 +1,23 @@
+.terms{
+    /* width: 500px; */
+    /* margin-left: 20px; */
+    border-style: double;
+    /* margin-right: 20px; */
+    margin: 20px;
+
+}
+.nametitle{
+    font-size: xx-large;
+    text-align: center;    
+}
+.name{
+    font-size: large;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.terms>p{
+    margin: 0px 20px;
+}
+.btnback{
+    background: blue;
+}
